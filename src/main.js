@@ -3,6 +3,7 @@ import App from './App.vue'
 import VueRouter from 'vue-router'
 import LastArticles from './components/LastArticles.vue'
 import MyComponent from './components/MyComponent.vue'
+import Blog from './components/Blog.vue'
 
 Vue.config.productionTip = false
 
@@ -17,7 +18,8 @@ const routes = [
   {path: '/home', component: LastArticles},
   {path: '/last-articles', component: LastArticles},
   {path: '/my-components', component: MyComponent},
-  {path: '/', component: LastArticles}
+  {path: '/', component: LastArticles},
+  {path: '/blog', component: Blog}
 ];
 
 const router = new VueRouter({

@@ -42,6 +42,11 @@
                             >NFTS</router-link
                         >
                     </li>
+                    <!--
+                    <div>
+                    <button>Wallet</button>
+                    </div>
+                    -->
                 </ul>
             </nav>
 
