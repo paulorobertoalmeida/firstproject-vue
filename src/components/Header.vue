@@ -4,7 +4,7 @@
             <!-- LOGO -->
             <div id="logo">
                 <img src="../assets/logo.png" class="app-logo" alt="Logotipo" />
-                <span id="brand"> <strong>Curso</strong>Vue </span>
+                <span id="brand"> <strong>Learn</strong>Vue </span>
             </div>
 
             <!-- MENU -->
@@ -12,7 +12,7 @@
                 <ul>
                     <li>
                         <router-link to="/home" active-class="active"
-                            >Inicio</router-link
+                            >Home</router-link
                         >
                     </li>
                     <li>
@@ -22,7 +22,7 @@
                     </li>
                     <li>
                         <router-link to="/formulario" active-class="active"
-                            >Formulario</router-link
+                            >Form</router-link
                         >
                     </li>
                     <li>
@@ -30,16 +30,16 @@
                             :to="{
                                 name: 'pagina',
                                 params: {
-                                    id: 'Bienvenido a la página de prueba',
+                                    id: 'Welcome to this Page',
                                 },
                             }"
                             active-class="active"
-                            >Pagina 1</router-link
+                            >Need to CHANGE</router-link
                         >
                     </li>
                     <li>
                         <router-link to="/peliculas" active-class="active"
-                            >Peliculas</router-link
+                            >NFTS</router-link
                         >
                     </li>
                 </ul>
@@ -52,12 +52,9 @@
 </template>
 
 <script>
-import { defineComponent } from '@vue/composition-api'
+// import { defineComponent } from '@vue/composition-api'
 
 export default {
-    name: 'Header'
-    setup() {
-        
-    },
-}
+    name: 'Header',  
+};
 </script>

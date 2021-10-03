@@ -1,20 +1,21 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Header/>
+    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> NO NEEDED-->
     <NewComponent></NewComponent>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
+// import HelloWorld from './components/HelloWorld.vue'; ** NO NEED THIS ONE 
 import NewComponent from './components/NewComponent.vue';
+import Header from './components/Header.vue';
 
 export default {
   name: 'App',
   components: {
-
-    HelloWorld,
+    Header,
+  
     NewComponent
   }
 }
