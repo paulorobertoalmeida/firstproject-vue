@@ -4,7 +4,7 @@
             <!-- LOGO -->
             <div id="logo">
                 <img src="../assets/logo.png" class="app-logo" alt="Logotipo" />
-                <span id="brand"> <strong>Learn</strong>Vue </span>
+                <span id="brand"> <strong>NFT</strong> Databoard</span>
             </div>
 
             <!-- MENU -->
@@ -34,7 +34,7 @@
                                 },
                             }"
                             active-class="active"
-                            >Need to CHANGE</router-link
+                            >Feed</router-link
                         >
                     </li>
                     <li>
