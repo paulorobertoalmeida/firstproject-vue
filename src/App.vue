@@ -1,22 +1,19 @@
 <template>
   <div id="app">
     <Header/>
-    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> NO NEEDED-->
-    <NewComponent></NewComponent>
+    <Slider/>
   </div>
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'; ** NO NEED THIS ONE 
-import NewComponent from './components/NewComponent.vue';
 import Header from './components/Header.vue';
+import Slider from './components/Slider.vue';
 
 export default {
   name: 'App',
   components: {
     Header,
-  
-    NewComponent
+    Slider,
   }
 }
 </script>

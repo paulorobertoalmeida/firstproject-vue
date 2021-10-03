@@ -1,12 +1,25 @@
 <template>
-    
+      <div
+        id="slider"
+        :class="{
+            'slider-big': home,
+            'slider-small': !home,
+        }"
+    >
+        <h1>
+            {{ texto }}
+        </h1>
+        <router-link to="/blog" class="btn-white" v-if="home"
+            >Go to Blog</router-link
+        >
+    </div>
 
 </template>
 
 <script>
 export default {
-    setup() {
-        
-    },
+    name: 'Slider',
+    // props: ["texto", "home"],
+//};
 }
 </script>
