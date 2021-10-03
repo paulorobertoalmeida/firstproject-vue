@@ -7,6 +7,7 @@ import MyComponent from './components/MyComponent.vue'
 Vue.config.productionTip = false
 
 new Vue({
+  router,
   render: h => h(App),
 }).$mount('#app')
 
@@ -18,3 +19,8 @@ const routes = [
   {path: '/my-components', component: MyComponent},
   {path: '/', component: LastArticles}
 ];
+
+const router = new VueRouter({
+  routes,
+  mode: 'history'
+});
