@@ -2,8 +2,7 @@
     <footer id="footer">
         <div class="center">
             <p>
-                &copy; Máster en frameworks para JavaScript de
-                victorroblesweb.es
+                &copy; NFT Databoard
             </p>
         </div>
     </footer>

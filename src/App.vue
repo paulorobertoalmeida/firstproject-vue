@@ -3,9 +3,10 @@
     <Header/>
     <Slider/>
     <div class="center">
-      <LastArticles/>
       <Sidebar/>
+      <LastArticles/>
     </div>
+    <Footer/>
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import Header from './components/Header.vue';
 import Slider from './components/Slider.vue';
 import Sidebar from './components/Sidebar.vue';
 import LastArticles from './components/LastArticles.vue';
+import Footer from './components/Footer.vue';
 
 export default {
   name: 'App',
@@ -22,6 +24,7 @@ export default {
     Slider,
     Sidebar,
     LastArticles,
+    Footer,
   }
 }
 </script>
