@@ -4,10 +4,9 @@
     <Slider/>
     <div class="center">
       <Sidebar/>
-      <!-- <LastArticles /> -->
+      <LastArticles /> 
       <router-view/>
     </div>
-    <Blog/>
     <Footer/>
   </div>
 </template>
@@ -17,7 +16,7 @@ import Header from './components/Header.vue';
 import Slider from './components/Slider.vue';
 import Sidebar from './components/Sidebar.vue';
 import LastArticles from './components/LastArticles.vue';
-import Blog from './components/Blog.vue';
+//import Blog from './components/Blog.vue';
 import Footer from './components/Footer.vue';
 
 export default {
@@ -27,7 +26,6 @@ export default {
     Slider,
     Sidebar,
     LastArticles,
-    Blog,
     Footer,
   }
 }

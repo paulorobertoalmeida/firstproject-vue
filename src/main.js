@@ -21,7 +21,7 @@ const routes = [
   {path: '/last-articles', component: LastArticles},
   {path: '/blog', component: Blog},
   {path: '/form', component: Form},
-  {path: '/page', component: Page,
+  {path: '/page', component: Page},
   {path: '/my-components', component: MyComponent},
   {path: '/', component: LastArticles},
   {path: '/blog', component: Blog}
@@ -29,5 +29,5 @@ const routes = [
 
 const router = new VueRouter({
   routes,
-  mode: 'history'
+  mode: 'history',
 });

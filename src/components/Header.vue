@@ -21,20 +21,20 @@
                         >
                     </li>
                     <li>
-                        <router-link to="/formulario" active-class="active"
+                        <router-link to="/form" active-class="active"
                             >Form</router-link
                         >
                     </li>
                     <li>
                         <router-link
                             :to="{
-                                name: 'pagina',
+                                name: 'page',
                                 params: {
                                     id: 'Welcome to this Page',
                                 },
                             }"
                             active-class="active"
-                            >Feed</router-link
+                            >Page</router-link
                         >
                     </li>
                     <li>
@@ -42,11 +42,12 @@
                             >NFTS</router-link
                         >
                     </li>
-                    <!--
-                    <div>
-                    <button>Wallet</button>
+                    
+                    <div id="el">
+                        {{pressedBtn}}
+                        <button >Wallet</button>
                     </div>
-                    -->
+                    
                 </ul>
             </nav>
 
@@ -57,9 +58,24 @@
 </template>
 
 <script>
+//import { watch } from '@vue/composition-api';
+//import Vue from 'vue';
 // import { defineComponent } from '@vue/composition-api'
 
 export default {
-    name: 'Header',  
+    name: 'Header', 
 };
+/*
+new Vue({
+    el: '#el',
+    data() { 
+        return{
+            pressedBtn: 'Wallet',
+             }
+            watch: {
+        
+        }
+    },
+}
+*/
 </script>
